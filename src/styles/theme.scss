@@ -1,0 +1,27 @@
+:root {
+  --primary-bg: #0d1117;   // Blackish
+  --primary-color: #58a6ff; // Blue
+  --secondary-bg: #161b22;
+  --text-color: #c9d1d9;
+  --card-bg: #21262d;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
